@@ -41,14 +41,14 @@
       "points": 10
     },
     {
-      "name": "Soal03a",
+      "name": "Soal03",
       "setup": "javac Soal03.java",
       "run": "java Soal03",
       "input": "286 349",
       "output": "enam ratus tiga puluh lima",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 30
     },
 	{
       "name": "Soal04a",
@@ -58,7 +58,7 @@
       "output": "140608",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 15
     },
     {
       "name": "Soal04b",
@@ -68,7 +68,7 @@
       "output": "65536",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 15
     }
   ]
 }
