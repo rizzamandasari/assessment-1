@@ -4,81 +4,111 @@
       "name": "Soal01a",
       "setup": "javac Soal01.java",
       "run": "java Soal01",
-      "input": "1234\n3213\n7891",
-      "output": "6987\n8867\n2643",
+      "input": "123 456 789 101 135",
+      "output": "123 valid\n456 tidak valid\n789 valid\n101 tidak valid\n135 valid",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
-    },
-	{
-      "name": "Soal01b",
-      "setup": "javac Soal01.java",
-      "run": "java Soal01",
-      "input": "5128\n7389\n2001",
-      "output": "0376\n2438\n7655",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
+      "points": 25
     },
     {
       "name": "Soal03a",
       "setup": "javac Soal03.java",
       "run": "java Soal03",
-      "input": "pria 60 150",
-      "output": "26.67, Overweight",
+      "input": "18 30 15",
+      "output": "18:45",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 12
     },
 	{
       "name": "Soal03b",
       "setup": "javac Soal03.java",
       "run": "java Soal03",
-      "input": "wanita 60 150",
-      "output": "26.67, Gemuk",
+      "input": "8 30 45",
+      "output": 9:15",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 13
     },
     {
       "name": "Soal02",
       "setup": "javac Soal02.java",
       "run": "java Soal02",
-      "input": "286 349",
-      "output": "enam ratus tiga puluh lima",
+      "input": "6 3.52 450 Ada",
+      "output": "Cumlaude",
       "comparison": "included",
       "timeout": 10,
-      "points": 30
+      "points": 7
+    },
+   {
+      "name": "Soal02b",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "7 3.52 450 Ada",
+      "output": "Sangat Memuaskan",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Soal02c",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "6 3.52 450 Tidak Ada",
+      "output": "Sangat Memuaskan",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+   {
+      "name": "Soal02d",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "7 3.0 450 Ada",
+      "output": "Memuaskan",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
     },
     {
       "name": "Soal04a",
       "setup": "javac Soal04.java",
       "run": "java Soal04",
-      "input": "2 2 6",
-      "output": "32",
+      "input": "MGR 150",
+      "output": "850000.0",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 6
     },
     {
       "name": "Soal04b",
       "setup": "javac Soal04.java",
       "run": "java Soal04",
-      "input": "5 4 5",
-      "output": "65",
+      "input": "STF 170",
+      "output": "9450000.0",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 6
     },
 	  {
       "name": "Soal04bc",
       "setup": "javac Soal04.java",
       "run": "java Soal04",
-      "input": "5 4 6",
-      "output": "91",
+      "input": "TCH 160",
+      "output": "8750000.0",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 6
+    },
+	   {
+      "name": "Soal04bc",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "DRV 175",
+      "output": "9737000.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
     }
   ]
 }
