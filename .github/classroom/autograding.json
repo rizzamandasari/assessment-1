@@ -25,7 +25,7 @@
       "setup": "javac Soal03.java",
       "run": "java Soal03",
       "input": "8 30 45",
-      "output": 9:15",
+      "output": "9:15",
       "comparison": "included",
       "timeout": 10,
       "points": 13
