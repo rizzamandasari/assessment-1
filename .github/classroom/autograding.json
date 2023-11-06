@@ -75,7 +75,7 @@
       "setup": "javac Soal04.java",
       "run": "java Soal04",
       "input": "MGR 150",
-      "output": "850000.0",
+      "output": "8500000.0",
       "comparison": "included",
       "timeout": 10,
       "points": 6
@@ -91,7 +91,7 @@
       "points": 6
     },
 	  {
-      "name": "Soal04bc",
+      "name": "Soal04c",
       "setup": "javac Soal04.java",
       "run": "java Soal04",
       "input": "TCH 160",
@@ -101,7 +101,7 @@
       "points": 6
     },
 	   {
-      "name": "Soal04bc",
+      "name": "Soal04d",
       "setup": "javac Soal04.java",
       "run": "java Soal04",
       "input": "DRV 175",
